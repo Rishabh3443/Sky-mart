@@ -2,7 +2,7 @@ import React from 'react'
 import { useNavigate } from 'react-router'
 import { useForm } from "react-hook-form";
 import { useDispatch } from "react-redux";  
-import { login } from "../features/Auth";
+import { login } from "../Features/Auth";
 import { toast } from 'react-toastify';
 
 const Login = () => {

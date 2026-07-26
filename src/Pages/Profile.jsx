@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { useNavigate } from "react-router";
 import { useForm } from "react-hook-form";
-import { logout, login } from "../features/Auth";
+import { logout, login } from "../Features/Auth";
 import { toast } from "react-toastify";
 
 const Profile = () => {
