@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+.marquee {
+  overflow: hidden;
+  white-space: nowrap;
+  background: black;
+}
+
+.marquee-track {
+  display: flex;
+  width: max-content;
+  animation: marquee 20s linear infinite;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-20%);
+  }
+}
+
+:hover.bt1{
+  background-color: black;
+  color: white;
+}
